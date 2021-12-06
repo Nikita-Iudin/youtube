@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic);
+
+body {
+    font-family: "Open Sans";
+   padding: 20px; 
+}
+p {
+    margin: 25px;
+}
+.container {
+    
+}
+.wrapper {
+    display: flex;
+    align-items: center;
+    
+}
+.title__h1 {
+    font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 68px;
+color: #000000;
+}
+.container_text {
+   
+    margin-bottom:29px;
+}
+.container_button {
+     
+}
+.container_button > a {
+display: inline-block;
+    margin: 25px;
+}
+.text {
+    font-weight: 300;
+font-size: 50px;
+
+
+/* identical to box height */
+color: #000000;
+}
+.button {
+    background: #E7E7E7;
+   padding: 19px 39px;
+    text-decoration: none;
+    font-weight: 300;
+font-size: 30px;
+line-height: 41px;
+color: #000000;
+margin-left:25px;
+
+}
+.button:hover {
+    color: #FFFFFF;
+    background: #A49E9E;
+}
+
+.image {
+    font-style: normal;
+font-weight: 300;
+font-size: 300px;
+/* identical to box height */
+color: rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 900px) {
+    .text {
+        font-size: 30px;
+    }
+    .button {
+        font-size: 20px;
+        padding: 10px 30px;
+    }
+    .title__h1 {
+        font-size: 30px;
+    }
+    .image {
+        font-size: 150px;
+    }
+    
+   
+}
